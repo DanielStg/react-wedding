@@ -4,7 +4,7 @@ import React from 'react'
 interface Props{
     children: string;
     colour?: string;
-    onClick: () => void;
+    onClick?: () => void;
 }
 const Button = ({children, onClick, colour = 'primary'}: Props) => {
     return (
